@@ -1,6 +1,9 @@
-import std.stdio;
+import std.stdio : writefln;
 
-void main()
-{
-	writeln("Edit source/app.d to start your project.");
+import search : search;
+
+void main() {
+	foreach (int i, dstring link; search("whatever")) {
+		writefln("%s. %s", i + 1, link);
+	}
 }
