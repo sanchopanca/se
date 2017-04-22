@@ -1,0 +1,9 @@
+{
+	"name": "se",
+	"authors": [
+		"Aleksandr Kovalev"
+	],
+	"description": "A distributed search engine",
+	"copyright": "Copyright © 2017, Aleksandr Kovalev",
+	"license": "EUPL v1.1"
+}
